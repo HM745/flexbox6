@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+nav {
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+nav li:first-child {
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+article {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.container {
+    border: 2px slategray solid;
+    padding: 10px;
+    flex: 1 1 calc(33% - 10px);
+}
